@@ -1,0 +1,38 @@
+package apexDay2;
+import java.util.*;
+
+public class BasicCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter 1st number :");
+		int firstNumber = sc.nextInt();
+		System.out.println("Enter second number :");
+		int secondNumber = sc.nextInt();
+		
+		System.out.println("what performance you would like to operate ? Enter charecter ");
+		System.out.println("Press A for addition");
+		System.out.println("Press D for division ");
+		System.out.println("Press M for multiplication ");
+		System.out.println("Press S for subtraction ");
+		
+		char operation = sc.next(".").charAt(0);
+		
+		if ( operation == 'A' ){
+			int total = firstNumber + secondNumber;
+			System.out.println("You have selected Addition operation");
+			System.out.println("Your addition of both number is : " + total);
+			
+			
+		}else 
+			if(operation == 'D'){
+				int division = firstNumber + secondNumber;
+				System.out.println("You have select Division operation");
+				System.out.println("First number divid second number : " + division);
+			}
+		
+	}
+
+}

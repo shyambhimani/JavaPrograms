@@ -1,0 +1,107 @@
+package oopsConcept;
+
+public class Employee {
+
+	int empNo;
+	String empName;
+	String address;
+	String state;
+	int zipCode;
+	String phone;
+	String designation;
+	int experienceInYears;
+	String emailAddress;
+	double basic;
+	double hra;
+	double bonus;
+
+	public Employee() {
+
+	}
+
+	public void setEmpNo(int employeeNumber) {
+		empNo = employeeNumber;
+
+	}
+
+	public int getEmpNo() {
+		return empNo;
+	}
+
+	public void setEmpName(String employeeName){
+		empName = employeeName;
+	}
+	
+	public String getEmpName(){
+		return empName;
+	}
+	
+	public void setAddress(String Address){
+		address = Address;
+	}
+	
+	public String getAddress(){
+		return address;
+	}
+	
+	public void setState(String State){
+		state = State;
+	}
+	
+	public String getState(){
+		return state;
+	}
+	
+	public void setZipCode(int ZipCode){
+		zipCode = ZipCode;
+	}
+	
+	public int getZipCode(){
+		return zipCode;
+	}
+	
+	public void setPhone(String Phone){
+		phone = Phone;
+	}
+	
+	public String getPhone(){
+		return phone;
+	}
+	
+	public void setDesignation(String Designation){
+		designation = Designation;
+	}
+	
+	public String getDesignation(){
+		return designation;
+	}
+	
+	public void setExperienceInYears(int ExperienceInYears){
+		experienceInYears = ExperienceInYears;
+	}
+	
+	public int getExperienceInYears(){
+		return experienceInYears;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public double totalSalary(double basic, double hra, double bonus) {
+		double salary = (basic + hra + (bonus / 100) * basic);
+
+		return salary;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package apexDay2;
+
+public class Exercise6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int sub1, sub2, sub3, sub4, sub5, sub6;
+		sub1 = 90;
+		sub2 = 95;
+		sub3 = 88;
+		sub4 = 67;
+		sub5 = 100;
+		sub6 = 75;
+		
+		System.out.println("Your total marks : " + (sub1+sub2+sub3+sub4+sub5+sub6) );
+		System.out.println("your average marks : " + (sub1+sub2+sub3+sub4+sub5+sub6)/6);
+
+	}
+
+}

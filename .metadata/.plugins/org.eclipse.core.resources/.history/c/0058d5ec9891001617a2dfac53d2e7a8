@@ -1,0 +1,36 @@
+package apexDay2;
+import java.util.Scanner;
+public class Exercise4 {
+	
+	public static void main (String[] args){
+		
+		int sub1, sub2, sub3, sub4, sub5, sub6;
+		// i is number of student 
+		int i;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter number of student : ");
+		
+		for ( i = sc.nextInt(); i>0; i--){
+			
+			System.out.println("Please enter marks of 1st subject: " );
+			sub1 = sc.nextInt();
+			System.out.println("Please enter marks of 2nd subject: " );
+			sub2 = sc.nextInt();
+			System.out.println("Please enter marks of 3rd subject: " );
+			sub3 = sc.nextInt();
+			System.out.println("Please enter marks of 4th subject: " );
+			sub4 = sc.nextInt();
+			System.out.println("Please enter marks of 5th subject: " );
+			sub5 = sc.nextInt();
+			System.out.println("Please enter marks of 6th subject: " );
+			sub6 = sc.nextInt();
+			
+			System.out.println("Total marks of student : " + (sub1+sub2+sub3+sub4+sub5+sub6));
+			System.out.println("Agerage marks of student :" + (sub1+sub2+sub3+sub4+sub5+sub6)/6);
+			
+		}
+				
+	}
+
+}

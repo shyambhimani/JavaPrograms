@@ -1,0 +1,20 @@
+package apexDay2;
+
+import java.util.*;
+
+public class QuadraticEquation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please exter value of X : ");
+		int x = sc.nextInt();
+		int y;
+		y = 3*x^x-8*x+4;
+		
+		System.out.println("When X = " + x +" value of Quadratic Equation after simplification = " + y );
+
+	}
+
+}

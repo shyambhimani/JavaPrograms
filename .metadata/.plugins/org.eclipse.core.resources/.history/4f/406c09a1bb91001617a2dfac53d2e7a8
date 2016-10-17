@@ -1,0 +1,24 @@
+package apexDay2;
+import java.util.*;
+public class Exercise5Program2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double itemPrice;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter item price: ");
+		itemPrice = sc.nextDouble();
+		if (itemPrice > 10){
+			double discount = itemPrice*0.05;
+			System.out.println("Discount amount is: " +  discount);
+
+			System.out.println("Price of item after discount is: " + (itemPrice - discount));
+			
+		}
+		System.out.println("Item price less tha $10 is not eligible for discount sorry :( ");
+		
+		
+
+	}
+
+}
