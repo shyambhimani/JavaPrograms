@@ -1,0 +1,108 @@
+package oopsConcept;
+import java.util.*;
+public class JobApplication {
+
+	static String companyName = "Ebay";
+	String firstName;
+	String lastName;
+	int age;
+	String gender;
+	private String presentAddress;
+	private String telephonNumber;
+	private String ssn;
+	String expectedSalaryPerMonth;
+
+	public JobApplication() {
+
+	}
+
+	public void setFirstName(String FirstName) {
+		firstName = FirstName;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setLastName(String LastName) {
+		lastName = LastName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setAge(int Age) {
+		age = Age;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setGender(String Gender) {
+		gender = Gender;
+	}
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setPresentAddress(String PresentAddress) {
+		presentAddress = PresentAddress;
+	}
+
+	public String getPresentAddress() {
+		return presentAddress;
+	}
+
+	public void setTelephoneNumber(String TelephonNumber) {
+		telephonNumber = TelephonNumber;
+	}
+
+	public String getTelephonNumber() {
+		return telephonNumber;
+	}
+
+	public void setSsn(String Ssn) {
+		ssn = Ssn;
+	}
+
+	public String getSsn() {
+		return ssn;
+	}
+
+	public void setExpectedSalaryPerMonth(String ExpectedSalaryPerMonth) {
+		expectedSalaryPerMonth = ExpectedSalaryPerMonth;
+	}
+
+	public String getExpectedSalaryPerMonth() {
+		return expectedSalaryPerMonth;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		JobApplication application1 = new JobApplication();
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Welcome to " + application1.companyName + " job application page");
+		System.out.println("Please enter your First Name: ");
+		application1.setFirstName(application1.firstName = sc.nextLine());
+		System.out.println("Please enter your Last Name: ");
+		application1.setLastName(application1.lastName = sc.nextLine());
+		System.out.println("Please enter your Age in Years: ");
+		application1.setAge(application1.age = sc.nextInt());
+		System.out.println("Please enter your Gender: ");
+		application1.setGender(application1.gender = sc.nextLine());
+		System.out.println("Please enter your current Address: ");
+		application1.setPresentAddress(application1.presentAddress = sc.nextLine());
+		System.out.println("Please enter your phone number: ");
+		application1.setTelephoneNumber(application1.telephonNumber = sc.nextLine());
+		
+				
+		
+
+	}
+
+}
