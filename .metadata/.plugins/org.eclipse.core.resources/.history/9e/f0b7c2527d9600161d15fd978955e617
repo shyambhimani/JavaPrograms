@@ -1,0 +1,15 @@
+package oopsConcept;
+import java.util.*;
+public class TotalPurchase extends Item {
+	
+	public void TotalQuantity(){
+		Item item1 = new Item();
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Please enter Item Number");
+		int quantity = sc.nextInt();
+		
+		
+	}
+
+}
