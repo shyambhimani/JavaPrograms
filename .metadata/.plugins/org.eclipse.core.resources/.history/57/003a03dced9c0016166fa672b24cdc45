@@ -1,0 +1,34 @@
+package oopsConcept;
+import java.util.*;
+public class TotalPrice {
+	
+	
+	
+	public double TotalPrice(){
+		return ();
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Please enter Item Number: ");
+		int itemNumber = sc.nextInt();
+		item.setItemNumber(itemNumber);
+		
+		System.out.println("Enter Item Name: ");
+		String itemName = sc.next();
+		item.setItemName(itemName);
+		
+		System.out.println("Enter item Quantity: ");
+		int itemQuantity = sc.nextInt();
+		item.setItemQuantity(itemQuantity);
+		
+		System.out.println("Enter the Price: ");
+		double itemPrice = sc.nextDouble();
+		item.setItemPrice(itemPrice);
+		
+	}
+
+}
