@@ -6,7 +6,7 @@ public class TotalPrice {
 
 	Item item = new Item();
 
-	public double TotalPriceCalculation() {
+	public double TotalPrice() {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Please enter Item Number: ");
@@ -33,7 +33,7 @@ public class TotalPrice {
 
 	public void Display() {
 
-		System.out.println("Total Price is : " + TotalPriceCalculation());
+		System.out.println("Total Price is : " + TotalPrice());
 	}
 
 	public static void main(String[] args) {
