@@ -3,4 +3,5 @@
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="oopsConcept.Employee"/>
 <fullyQualifiedTypeName name="oopsConcept.TotalPrice"/>
+<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,23 @@
+package com.apex.java6;
+
+class MyThread extends Thread{
+	public void run(){
+		System.out.println("Thread!");
+	}
+}
+
+
+
+public class ThreadExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		MyThread t = new MyThread();
+		MyThread t2 = new MyThread();
+		t.start();
+		t.start();
+		
+	}
+
+}

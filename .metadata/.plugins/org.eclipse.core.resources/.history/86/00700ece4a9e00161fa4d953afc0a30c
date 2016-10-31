@@ -1,0 +1,14 @@
+package com.apex.java6;
+
+public class ThreadExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Thread t = Thread.currentThread();
+		t.setName("MAIN thread !");
+		System.out.println(t);
+
+	}
+
+}

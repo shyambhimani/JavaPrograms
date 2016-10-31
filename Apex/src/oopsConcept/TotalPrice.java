@@ -41,6 +41,7 @@ public class TotalPrice {
 		
 		TotalPrice calculation = new TotalPrice();
 		calculation.Display();
+		
 
 	}
 

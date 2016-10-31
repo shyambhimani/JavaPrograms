@@ -1,0 +1,10 @@
+package com.apex.java6;
+
+public class SyncExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
