@@ -1,0 +1,21 @@
+package com.apex.collection;
+
+class Student2 {
+	String name;
+	
+	public Student2(String name) {
+		this.name = name;	
+	}
+}
+
+
+public class ToString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Student2 s = new Student2("Mike");
+		System.out.println(s);
+	}
+
+}

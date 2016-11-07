@@ -1,0 +1,21 @@
+package com.apex.collection;
+
+import java.util.LinkedHashSet;
+
+public class HashSetExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		LinkedHashSet h = new LinkedHashSet();
+		
+		h.add("Hello");
+		h.add("World");
+		h.add("Game");
+		
+		for(Object x: h){
+			System.out.println(x);
+		}
+	}
+
+}

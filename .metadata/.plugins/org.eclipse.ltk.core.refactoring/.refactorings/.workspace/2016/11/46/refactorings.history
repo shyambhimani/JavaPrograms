@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;JavaClass/src/com/apex/collection/ToString.java&apos;" deleteContents="false" description="Delete resource &apos;JavaClass/src/com/apex/collection/ToString.java&apos;" element1="/JavaClass/src/com/apex/collection/ToString.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1478402985827"/>
+</session>
