@@ -1,0 +1,31 @@
+package thirtyDaysChallange;
+
+import java.util.Scanner;
+import java.util.function.IntBinaryOperator;
+
+public class DecimalToBinary {
+
+	public static void toBinary(int n) {
+		int remainder;
+
+		if (n <= 1) {
+			remainder = n % 2;
+			toBinary(n >> 1);
+			System.out.println();
+			return;
+		}
+
+		remainder = n % 2;
+		toBinary(n >> 1);
+		System.out.print(remainder);
+
+	}
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int n = in.nextInt();
+
+		toBinary(n);
+	}
+
+}
