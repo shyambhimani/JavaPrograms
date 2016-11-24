@@ -1,0 +1,5 @@
+package thirtyDaysChallange;
+
+public class NegativeNumber extends Exception {
+
+}

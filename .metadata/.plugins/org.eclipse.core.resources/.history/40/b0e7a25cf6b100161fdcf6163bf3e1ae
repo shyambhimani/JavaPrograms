@@ -1,0 +1,58 @@
+package thirtyDaysChallange;
+
+
+import java.util.Scanner;
+
+
+
+public class ExceptionExample extends Exception {
+	 int n, p;
+	 String message;
+
+	public ExceptionExample() {
+
+	}
+
+	public void setMessage(String Message) {
+		this.message = Message;
+	}
+
+	public String getMessage() {
+		return message = "n and p should be non-negative";
+	}
+
+	public int power(int x, int y) throws ExceptionExample {
+		int power = 0;
+		if (x >= 0 && y >= 0) {
+			x = n;
+			y = p;
+			power = (int) Math.pow(n, p);
+
+		} else {
+
+			throw new ExceptionExample();
+
+		}
+
+		return power;
+	}
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int T = in.nextInt();
+		while (T-- > 0) {	
+			int n = in.nextInt();
+			int p = in.nextInt();
+			ExceptionExample myCalculator = new ExceptionExample();
+			try {
+				int ans = myCalculator.power(n, p);
+				System.out.println(ans);
+
+			} catch (Exception e) {
+				System.out.println(e.getMessage());
+			}
+		}
+
+	}
+
+}
