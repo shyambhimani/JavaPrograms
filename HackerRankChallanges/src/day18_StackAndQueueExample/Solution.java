@@ -1,3 +1,6 @@
+/**
+ * Copyright 2016 Shyam Bhimani
+ */
 package day18_StackAndQueueExample;
 
 import java.util.LinkedList;
