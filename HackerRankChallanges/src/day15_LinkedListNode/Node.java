@@ -1,7 +1,7 @@
 /**
  * Copyright 2016 Shyam Bhimani
  */
-package thirtyDaysChallange;
+package day15_LinkedListNode;
 
 import java.io.*;
 import java.util.*;
