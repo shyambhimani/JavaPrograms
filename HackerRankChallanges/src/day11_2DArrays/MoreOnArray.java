@@ -23,7 +23,6 @@ public class MoreOnArray {
 				
 			}
 					
-			
 		}
 		Arrays.sort(sum);
 		System.out.println(sum[15]);

@@ -1,0 +1,17 @@
+/**
+ * Copyright 2016-2017 Shyam Bhimani
+ */
+
+package polymorphism;
+
+public class Mercedes extends Car {
+
+	// Override run method (Runtime Polymorphism)
+	@Override
+	public void run() {
+
+		System.out.println("Mercedes is running");
+
+	}
+
+}

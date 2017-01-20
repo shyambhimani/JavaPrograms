@@ -21,10 +21,10 @@ public class MaxStockProfit {
 				if (arr[j] - arr[i] > maxProfit) {
 					maxProfit = arr[j] - arr[i];
 				}
-
 			}
 
 		}
+		
 		
 		
 		return maxProfit;

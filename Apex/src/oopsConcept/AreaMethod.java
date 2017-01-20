@@ -9,10 +9,10 @@ public class AreaMethod {
 	double width;
 	double length;
 
-//	public AreaMethod(){
-//		
-//	}
-	
+	//	public AreaMethod(){
+	//		
+	//	}
+
 	//Method to calculate Area of Circle
 	public void areaOfCircle() {
 		double area = pi * (radious * radious);
@@ -24,7 +24,7 @@ public class AreaMethod {
 		double area = radious * radious;
 		System.out.println("Area of the Square is: " + area);
 	}
-	
+
 	//Method to calculate Area of Rectangle 
 	public void areaOfRectangle() {
 		double area = width * length;

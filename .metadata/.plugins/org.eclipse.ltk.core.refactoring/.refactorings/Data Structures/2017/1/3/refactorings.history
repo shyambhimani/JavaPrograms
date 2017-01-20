@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Data Structures/src/poly&apos; to &apos;polymorphism&apos;" description="Rename resource &apos;poly&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/poly" name="polymorphism" stamp="1484438762828" updateReferences="true"/>
+</session>
