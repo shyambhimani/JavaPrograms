@@ -1,0 +1,76 @@
+/**
+ * Copyright 2016-2017 Shyam Bhimani
+ */
+
+package string_manipulation;
+
+public class MovesString {
+
+	public void easyStrings(String st1 ,String st2){
+		
+		char a[] = st1.toCharArray();
+		
+		char b[] = st2.toCharArray();
+		
+		int aLength = 0;
+		
+		char temp = 'a' ;
+        
+        if (1 > a.length || 2000 < b.length){
+           
+            System.out.println("Invalid input");
+            
+        } else if(a.length == b.length){
+        	
+        	if(a != b){
+        		//aaaab
+        		//baaaa
+        		if(a[0] == b[b.length - 1] && b[0] == a[a.length - 1]){
+        			
+        			a[0] = temp;
+        			a[a.length - 1] = temp;
+        			a[0] = b[0];
+        			
+        			
+//        			b[b.length - 1] = a[0];
+//        			temp = b[b.length - 1];
+//        			b[0] = temp;
+//        			a[a.length - 1] = b[0];
+//        			temp = a[a.length - 1];
+        			System.out.println(a);
+        			
+        		}
+        		            
+            
+        	}
+        	
+        }
+        
+    }
+
+	public static void main(String[] args) {
+		/*
+		 * Enter your code here. Read input from STDIN. Print output to STDOUT.
+		 * Your class should be named Solution.
+		 */
+		
+		
+		String st1 = "baaaaa";
+		String st2 = "aaaaab";
+		
+		MovesString m = new MovesString();
+		
+		m.easyStrings(st1, st2);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
