@@ -1,0 +1,30 @@
+/**
+ * Copyright 2016-2017 Shyam Bhimani
+ */
+
+package tempPrac;
+
+import java.util.Scanner;
+
+public class Solution {
+
+	
+	public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
+//        int tem = sc.nextInt();
+        int i = sc.nextInt();
+        double d = sc.nextDouble();
+        sc.close();
+
+       // String numberAsString = Integer.toString(s);
+        // Write your code here.
+        
+
+        System.out.println("String: " + s);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
+        
+        
+	}	
+}

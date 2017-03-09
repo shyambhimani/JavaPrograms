@@ -1,0 +1,27 @@
+/**
+ * Copyright 2016-2017 Shyam Bhimani
+ */
+
+package tempPrac;
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+
+//check if equilibrium 
+public class Solution2 {
+
+	public static double solution(double d){
+		
+		BigDecimal bd = new BigDecimal(( d - Math.floor( d )) * 100 );
+		bd = bd.setScale(4,RoundingMode.HALF_DOWN);
+		return  bd.intValue();
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double result = solution(234.5);
+		System.out.println(result);
+
+	}
+
+}
