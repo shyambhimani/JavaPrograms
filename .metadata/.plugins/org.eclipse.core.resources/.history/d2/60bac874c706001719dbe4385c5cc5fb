@@ -1,0 +1,11 @@
+/**
+ * Copyright 2016-2017 Shyam Bhimani
+ */
+
+package org.shyam.sdk.messenger.database;
+
+public class DatabaseClass {
+
+	private static Map<Long, Message> messages = new HashMap<>();
+	
+}

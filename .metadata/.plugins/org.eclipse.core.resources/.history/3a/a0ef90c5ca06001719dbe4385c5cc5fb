@@ -1,0 +1,30 @@
+/**
+ * Copyright 2016-2017 Shyam Bhimani
+ */
+
+package org.shyam.sdk.messenger.services;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.shyam.sdk.messenger.database.DatabaseClass;
+import org.shyam.sdk.messenger.model.Message;
+
+public class MessageService {
+	
+	private Map<Long, Message> messages = DatabaseClass.getMessages();
+	
+	public List<Message> getAllMessages(){
+		
+		return new ArrayList<Message>(messages.values());
+		
+	}
+	
+	public Message addMessage(Message message){
+		message.setId(messages.size() + 1);
+		messages.put(message.getId(), message);
+		return message;
+	}
+
+}

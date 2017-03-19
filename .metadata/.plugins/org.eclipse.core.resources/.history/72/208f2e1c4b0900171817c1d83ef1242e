@@ -1,0 +1,19 @@
+/**
+ * Copyright 2016-2017 Shyam Bhimani
+ */
+
+package org.shyam.sdk.messenger.resources;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+@Path("/profiles")
+@Consumes(MediaType.TEXT_PLAIN)
+@Produces(MediaType.TEXT_PLAIN)
+public class InjectDemoResource {
+	
+	
+
+}

@@ -1,0 +1,15 @@
+/**
+ * Copyright 2016-2017 Shyam Bhimani
+ */
+
+package org.shyam.sdk.messenger.model;
+
+public class Profile {
+	
+	private long id;
+	private String profileName;
+	private String firstName;
+	private String lastName;
+	private Date created;
+
+}

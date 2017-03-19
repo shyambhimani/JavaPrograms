@@ -3,7 +3,6 @@
 <fullyQualifiedTypeName name="oopsConcept.Employee"/>
 <fullyQualifiedTypeName name="oopsConcept.TotalPrice"/>
 <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.util.function.IntBinaryOperator"/>
@@ -19,10 +18,17 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="org.eclipse.jdt.internal.compiler.util.Messages"/>
 <fullyQualifiedTypeName name="org.shyam.messenger.service.MessageService"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="org.shyam.sdk.messenger.model.Message"/>
-<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="javax.xml.soap.Text"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.shyam.sdk.messenger.model.Message"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="org.shyam.sdk.messenger.services.ProfileService"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="org.shyam.sdk.messenger.model.Profile"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.shyam.sdk.messenger.database.DatabaseClass"/>
+<fullyQualifiedTypeName name="java.util.Calendar.Builder"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
 </qualifiedTypeNameHistroy>

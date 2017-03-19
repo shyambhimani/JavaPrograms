@@ -1,0 +1,67 @@
+/**
+ * Copyright 2016-2017 Shyam Bhimani
+ */
+
+package searchingAlgorithms;
+
+public class LinearSearch {
+
+	private int[] theArray = new int[50];
+	private int arraySize = 10;
+	
+	//Generate array with random value
+	public void generateRandomArray(){
+		for(int i = 0; i < arraySize; i++){
+			theArray[i] = (int)(Math.random()*10)+10;
+		}
+	}
+//	
+//	public void printArray(){
+//		System.out.println("----------");
+//		for(int i = 0; i < arraySize; i++){
+//			System.out.println("----------");
+//			System.out.print("| " + i + " | ");
+//		}
+//	}
+	
+	public void printHorizontalArray(int i, int j){
+		
+		for (int n = 0; n < arraySize; n++){
+			System.out.print("-----");
+			
+		}
+		System.out.println();
+		for (int n = 0; n < arraySize; n++){
+			System.out.print("| " + n + "  ");
+		}
+		System.out.println("|");
+		for (int n = 0; n < arraySize; n++){
+			System.out.print("-----");
+		}
+		
+		System.out.println();
+		for (int n = 0; n < arraySize; n++){
+			System.out.print("| " + theArray[n] + " ");
+		}
+		System.out.println("|");
+		
+		if(j != -1){
+			for (int k = 0; k < ((j*5)+2); k++){
+				System.out.print(j);
+			}
+						
+		}
+		System.out.println();
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		LinearSearch linearSearch = new LinearSearch();
+		linearSearch.generateRandomArray();
+		
+		
+
+	}
+
+}

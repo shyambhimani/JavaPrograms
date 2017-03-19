@@ -1,0 +1,21 @@
+/**
+ * Copyright 2016-2017 Shyam Bhimani
+ */
+
+package org.shyam.sdk.messenger.services;
+
+import java.util.List;
+import java.util.Map;
+
+import org.shyam.sdk.messenger.database.DatabaseClass;
+import org.shyam.sdk.messenger.model.Profile;
+
+public class ProfileService {
+	
+	public Map<String, Profile> profiles = DatabaseClass.getProfiles();
+	
+	public Profile getProfile(Profile profileName){
+		return profiles.get(profileName);
+	}
+
+}
